@@ -28,7 +28,7 @@ driver.find_element(By.XPATH, '//*[@id="loginForm"]/div/div[3]/button').click()
 sleep(SLEEP_TIME)
 
 # with open(r'caminho\do\arquivo', 'r') as arquivo:
-with open(r'C:\Users\gfranciscoa2\OneDrive - DXC Production\Documents\Guilherme\CLARO\PYTHON\config\naoSeguidores.json', 'r') as arquivo:
+with open(r'C:\Users\ghfa_\OneDrive\Documentos\DEV\GIT\naoSeguidores\naoSeguidores.json', 'r') as arquivo:
     dados = json.load(arquivo)
 
     i=1
