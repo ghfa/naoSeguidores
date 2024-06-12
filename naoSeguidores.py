@@ -21,7 +21,7 @@ driver = webdriver.Chrome(options=chrome_options)
 driver.get('https://www.instagram.com')
 sleep(SLEEP_TIME)
 username = driver.find_element(By.NAME, 'username')
-username.send_keys('bandagigabyte')
+username.send_keys('bandagigabyte') # APROVEITA E SEGUE MINHA BANDA!
 password = driver.find_element(By.NAME, 'password')
 password.send_keys('gigab@1995*')
 driver.find_element(By.XPATH, '//*[@id="loginForm"]/div/div[3]/button').click()
