@@ -23,7 +23,7 @@ sleep(SLEEP_TIME)
 username = driver.find_element(By.NAME, 'username')
 username.send_keys('bandagigabyte') # APROVEITA E SEGUE MINHA BANDA!
 password = driver.find_element(By.NAME, 'password')
-password.send_keys('gigab@1995*')
+password.send_keys('**********')
 driver.find_element(By.XPATH, '//*[@id="loginForm"]/div/div[3]/button').click()
 sleep(SLEEP_TIME)
 
